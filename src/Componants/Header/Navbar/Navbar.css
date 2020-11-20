@@ -1,0 +1,63 @@
+.navbar-brand {
+    height: 80px;
+}
+
+.navbar-toggler {
+    height: 28px;
+}
+
+.navbar-nav .nav-item {
+    padding-right: 20px;
+}
+
+
+.navbar-nav .nav-item .nav-link {
+    font-weight: 500;
+    font-size: 18px;
+    color: #263F44;
+}
+
+.contact-btn-modify {
+    height: 60px;
+    width: 178px;
+    background-image: linear-gradient( to right, #2AF598, #009EFD);
+    border-radius: 35px 0;
+    padding-top: 12px;
+}
+
+
+
+@media (max-width: 375px) { 
+
+    .navbar-nav .nav-item {
+        padding-right: 0px;
+    }
+    
+
+    .contact-btn-modify {
+        height: 60px;
+        width: 178px;
+        background-image: linear-gradient( to right, #2AF598, #009EFD);
+        border-radius: 35px 0;
+        padding-top: 15px;
+        margin-left: 81px;
+    }
+}
+
+@media (min-width: 768px) {
+
+    .contact-btn-modify {
+        padding-top: 15px;
+        margin-left: 250px;
+    }
+    
+}
+
+@media (min-width: 992px) {
+
+    .contact-btn-modify {
+        padding-top: 15px;
+        margin-left: 0px;
+    }
+    
+}
